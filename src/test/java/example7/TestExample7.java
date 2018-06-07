@@ -1,14 +1,14 @@
-package example6;
+package example7;
 
 import example2.BaseTest;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestSimple extends BaseTest {
+public class TestExample7 extends BaseTest {
 
     @Test
-    public void simpleStart() {
+    public void TestExample7() {
 
         driver.get("http://capgemini.com");
         HomePage homePage = new HomePage(driver);

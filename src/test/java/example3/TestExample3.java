@@ -7,10 +7,10 @@ import org.openqa.selenium.WebElement;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestSimple extends BaseTest {
+public class TestExample3 extends BaseTest {
 
     @Test
-    public void simpleStart() {
+    public void TestExample3() {
 
         driver.get("http://capgemini.com");
         HomePage homePage = new HomePage(driver);

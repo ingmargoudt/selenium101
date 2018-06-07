@@ -9,10 +9,10 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestSimple {
+public class TestExample1 {
 
     @Test
-    public void simpleStart() {
+    public void TestExample1() {
 
         System.setProperty("webdriver.chrome.driver", this.getClass().getClassLoader().getResource("chromedriver.exe").getPath());
         ChromeOptions options = new ChromeOptions();

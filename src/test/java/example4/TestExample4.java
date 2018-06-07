@@ -1,20 +1,19 @@
-package example7;
+package example4;
 
 import example2.BaseTest;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestSimple extends BaseTest {
+public class TestExample4 extends BaseTest {
 
     @Test
-    public void simpleStart() {
+    public void TestExample4() {
 
         driver.get("http://capgemini.com");
         HomePage homePage = new HomePage(driver);
-        homePage.clickIndustries();
-        IndustryPage industryPage = new IndustryPage(driver);
-        String industryLabel = industryPage.getIndustryLabel();
+        String industryLabel = homePage.clickIndustries()
+                .getIndustryLabel();
         assertEquals("Industries", industryLabel);
 
     }

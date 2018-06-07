@@ -6,10 +6,10 @@ import org.openqa.selenium.support.PageFactory;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestSimple extends BaseTest {
+public class TestExample5 extends BaseTest {
 
     @Test
-    public void simpleStart() {
+    public void TestExample5() {
 
         driver.get("http://capgemini.com");
         HomePage homePage = PageFactory.initElements(driver, HomePage.class);

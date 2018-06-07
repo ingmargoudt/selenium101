@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestSimple extends BaseTest {
+public class TestExample2 extends BaseTest {
 
     @Test
     public void simpleStart() {
